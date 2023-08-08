@@ -3,22 +3,24 @@ import logo from "../assets/images/logo.svg";
 
 function Navbar() {
   return (
-    <div className="flex justify-between items-center w-full">
-      <img src={logo} alt="Company logo" />
-      <ul className="flex p-0">
-        <li className="cursor-pointer">
+    <div className="flex justify-between items-center w-full bg-off-white mb-11">
+      <a href="/">
+        <img src={logo} alt="Company logo" />
+      </a>
+      <ul className="flex p-0 text-dark-grayish ">
+        <li className="cursor-pointer hover:text-soft-red">
           <a>Home</a>
         </li>
-        <li className="ml-6 cursor-pointer">
+        <li className="ml-9 cursor-pointer hover:text-soft-red">
           <a>New</a>
         </li>
-        <li className="ml-6 cursor-pointer">
+        <li className="ml-9 cursor-pointer hover:text-soft-red">
           <a>Popular</a>
         </li>
-        <li className="ml-6 cursor-pointer">
+        <li className="ml-9 cursor-pointer hover:text-soft-red">
           <a>Trending</a>
         </li>
-        <li className="ml-6 cursor-pointer">
+        <li className="ml-9 cursor-pointer hover:text-soft-red">
           <a>Categories</a>
         </li>
       </ul>
