@@ -12,7 +12,7 @@ export default {
         "very-dark-blue": "hsl(240, 100%, 5%)",
       },
       margin: {
-        "10vw": "10vw",
+        "20vw": "20vw",
       },
     },
     plugins: [],

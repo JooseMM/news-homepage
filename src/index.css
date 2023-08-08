@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .visual-divider {
+    border-top: 2px solid hsl(236, 13%, 42%);
+    opacity: 0.4;
+    margin-bottom: 1.5rem;
+  }
+}
+
 body {
   /* background-color: hsl(36, 100%, 99%); */
   background-color: hsl(0, 0%, 58%);
