@@ -20,27 +20,27 @@ function Hero() {
         />
       </div>
       {/* news section */}
-      <aside className="row-span-2 bg-very-dark-blue px-5 py-6">
-        <h2 className="text-soft-orange text-3xl font-bold mb-4">New</h2>
-        <h3 className="text-off-white font-bold text-[15px] mb-1">
+      <aside className="row-span-2 bg-very-dark-blue px-6 py-6">
+        <h2 className="text-soft-orange text-3xl font-bold mb-5">New</h2>
+        <h3 className="text-off-white font-bold text-md mb-2">
           Hydrogen VS Electric Cars
         </h3>
-        <p className="text-grayish-blue text-[12px]/[21px] mb-6">
+        <p className="text-grayish-blue text-sm mb-7 leading-6">
           Will hydrogen-fueled cars ever catch up to EVs?
         </p>
         <hr className="visual-divider" />
-        <h3 className="text-off-white font-bold text-[15px] mb-1">
+        <h3 className="text-off-white font-bold text-md mb-2">
           The Downsides of AI Artistry
         </h3>
-        <p className="text-grayish-blue text-[12px]/[21px] mb-6">
+        <p className="text-grayish-blue text-sm mb-6 leading-6">
           What are the possible adverse effects of on-demand AI image
           generation?
         </p>
         <hr className="visual-divider" />
-        <h3 className="text-off-white font-bold text-[15px] mb-1">
+        <h3 className="text-off-white font-bold text-md mb-2">
           Is VC Funding Drying Up?
         </h3>
-        <p className="text-grayish-blue text-[12px]/[21px] mb-1">
+        <p className="text-grayish-blue text-sm leading-6">
           Private funding by VC firms is down 50% YOY. We take a look at what
           that means.
         </p>
