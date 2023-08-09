@@ -4,7 +4,7 @@ import "@fontsource-variable/inter";
 
 function App() {
   return (
-    <div className="mx-20vw my-20">
+    <div className="my-20 max-w-5xl mx-5 md:mx-10 lg:mx-auto">
       <Navbar />
       <Hero />
     </div>
@@ -12,3 +12,4 @@ function App() {
 }
 
 export default App;
+// className="mx-2 my-20 md:mx-10 lg:mx-[5vw] xl:mx-[10vw] 2xl:mx-[15vw]"

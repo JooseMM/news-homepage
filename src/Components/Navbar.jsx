@@ -3,11 +3,11 @@ import logo from "../assets/images/logo.svg";
 
 function Navbar() {
   return (
-    <div className="flex justify-between items-center w-full bg-off-white mb-11">
+    <div className="flex justify-between items-center w-full  mb-11">
       <a href="/">
         <img src={logo} alt="Company logo" />
       </a>
-      <ul className="flex p-0 text-dark-grayish ">
+      <ul className="hidden md:flex p-0 text-dark-grayish ">
         <li className="cursor-pointer hover:text-soft-red">
           <a>Home</a>
         </li>

@@ -11,9 +11,6 @@ export default {
         "dark-grayish": "hsl(236, 13%, 42%)",
         "very-dark-blue": "hsl(240, 100%, 5%)",
       },
-      margin: {
-        "20vw": "20vw",
-      },
     },
     plugins: [],
   },
