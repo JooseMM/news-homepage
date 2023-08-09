@@ -8,10 +8,10 @@ import consoleController from "../assets/images/image-gaming-growth.jpg";
 function Hero() {
   return (
     // grid container
-    <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-6 md:gap-y-8 lg:grid-cols-3  ">
+    <div className="grid grid-cols-1 gap-y-10 md:grid-cols-2 md:gap-x-10 md:gap-y-8 lg:gap-y-8 lg:grid-cols-3  ">
       {/* banner */}
 
-      <div className="col-span-2">
+      <div className="order-first md:order-none md:col-span-2">
         <img
           src={bannerDesktop}
           alt="Puzzle image"
@@ -25,7 +25,7 @@ function Hero() {
       </div>
 
       {/* news section */}
-      <aside className="row-span-2 bg-very-dark-blue px-6 py-7">
+      <aside className="order-4 row-span-2 bg-very-dark-blue px-6 py-7 md:order-none">
         <h2 className="text-soft-orange text-3xl font-bold mb-5">New</h2>
         <h3 className="text-off-white font-bold text-md mb-2 hover:text-soft-orange">
           <a href="/">Hydrogen VS Electric Cars</a>
@@ -51,15 +51,15 @@ function Hero() {
         </p>
       </aside>
       {/* main header */}
-      <div>
-        <h1 className="text-[50px]/[50px] font-bold max-w-[8ch]">
+      <div className="order-2 md:order-none md:max-h-8">
+        <h1 className="text-[50px]/[50px] font-bold max-w-[12ch] md:max-w-[8ch]">
           The Bright Future of Web 3.0?
         </h1>
       </div>
 
       {/* main header description */}
-      <div>
-        <p className="text-sm/[22px] text-dark-grayish mb-7">
+      <div className="order-3 md:order-none">
+        <p className="text-sm/[26px] md:text-sm/[22px] text-dark-grayish mb-7 max-w-[50ch] md:max-w-[37ch]">
           We dive into the next evolution of the web that claims to put the
           power of the platforms back into the hands of the people. But is it
           really fulfilling its promise?
@@ -70,7 +70,7 @@ function Hero() {
       </div>
 
       {/* small boxes */}
-      <div className=" flex items-center mt-9">
+      <div className=" flex items-center mt-9 order-5 md:order-none">
         <img src={oldPc} alt="Computer image" className="max-w-[6rem]" />
         <div className="ms-6 flex flex-col justify-center">
           <span className="text-3xl font-bold text-grayish-blue">01</span>
@@ -83,7 +83,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className=" flex items-center mt-9">
+      <div className="order-6 flex items-center mt-9 md:order-none">
         <img src={keyboard} alt="Keyboard image" className="max-w-[6rem]" />
         <div className="ms-6 flex flex-col justify-center">
           <span className="text-3xl font-bold text-grayish-blue">02</span>
@@ -96,7 +96,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className=" flex items-center mt-9">
+      <div className=" flex items-center mt-9 order-last md:order-none">
         <img
           src={consoleController}
           alt="Controller image"
