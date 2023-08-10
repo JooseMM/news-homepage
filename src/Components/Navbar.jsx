@@ -12,12 +12,19 @@ function Navbar() {
         <img src={logo} alt="Company logo" className="max-w-[50px]" />
       </a>
 
-      <img
+      {/* <img
         src={showMenu ? hamburguerMenuClose : hamburguerMenu}
         alt="Menu mobile button"
         onClick={() => setShowMenu(!showMenu)}
-        className={showMenu ? "h-7 w-[35px]" : "w-[38px] h-5"}
+        className={`${showMenu ? "h-7 w-[35px]" : "w-[38px] h-5"} md:hidden`}
+      /> */}
+      <img
+        src={showMenu ? hamburguerMenuClose : hamburguerMenu}
+        alt="Menu mobile button"
+        className="w-[38px] h-5 md:hidden"
+        onClick={() => setShowMenu(!showMenu)}
       />
+
       <ul className="hidden md:flex p-0 text-dark-grayish ">
         <li className="cursor-pointer hover:text-soft-red">
           <a>Home</a>
