@@ -30,14 +30,14 @@ function Hero() {
         <h3 className="text-off-white font-bold text-lg mb-2 hover:text-soft-orange">
           <a href="/">Hydrogen VS Electric Cars</a>
         </h3>
-        <p className="text-grayish-blue text-base mb-7 leading-6">
+        <p className="text-grayish-blue text-base mb-7 leading-6 w-[95%]">
           Will hydrogen-fueled cars ever catch up to EVs?
         </p>
         <hr className="visual-divider" />
         <h3 className="text-off-white font-bold text-lg mb-2 hover:text-soft-orange">
           <a href="/">The Downsides of AI Artistry</a>
         </h3>
-        <p className="text-grayish-blue text-base mb-6 leading-6">
+        <p className="text-grayish-blue text-base mb-6 leading-6 w-[95%]">
           What are the possible adverse effects of on-demand AI image
           generation?
         </p>
@@ -45,26 +45,26 @@ function Hero() {
         <h3 className="text-off-white font-bold text-lg mb-2 hover:text-soft-orange">
           <a href="/">Is VC Funding Drying Up?</a>
         </h3>
-        <p className="text-grayish-blue text-base leading-6">
+        <p className="text-grayish-blue text-base leading-6 w-[95%]">
           Private funding by VC firms is down 50% YOY. We take a look at what
           that means.
         </p>
       </aside>
       {/* main header */}
-      <div className="order-2 mb-4 md:mb-0 md:order-none md:max-h-8">
-        <h1 className="text-[50px]/[50px] font-bold max-w-[12ch] md:max-w-[8ch]">
+      <div className="order-2 mb-4 lg:mb-0 md:order-none md:max-h-8">
+        <h1 className="text-[50px]/[50px] md:text-6xl font-bold max-w-[12ch] md:max-w-[8ch]">
           The Bright Future of Web 3.0?
         </h1>
       </div>
 
       {/* main header description */}
       <div className="order-3 mb-14 md:mb-0 md:order-none ">
-        <p className="text-base/[30px] text-dark-grayish mb-9 max-w-[50ch] md:max-w-[37ch]">
+        <p className="text-base text-dark-grayish mb-9 max-w-[50ch] md:max-w-[37ch]">
           We dive into the next evolution of the web that claims to put the
           power of the platforms back into the hands of the people. But is it
           really fulfilling its promise?
         </p>
-        <button className="font-semibold bg-soft-red text-off-white text-base tracking-[.35rem] py-4 px-10  md:hover:bg-very-dark-blue">
+        <button className="font-semibold bg-soft-red text-off-white text-sm tracking-[.35rem] py-3 px-8  md:hover:bg-very-dark-blue">
           READ MORE
         </button>
       </div>
