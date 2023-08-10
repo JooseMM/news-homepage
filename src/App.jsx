@@ -4,7 +4,7 @@ import "@fontsource-variable/inter";
 
 function App() {
   return (
-    <div className="my-20 max-w-5xl mx-5 md:mx-10 lg:mx-auto">
+    <div className="mt-10 mb-20 md:my-20 max-w-6xl mx-5 md:mx-10 lg:mx-auto">
       <Navbar />
       <Hero />
     </div>
