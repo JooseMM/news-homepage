@@ -10,10 +10,12 @@
   }
   .mobile-active-menu {
     position: absolute;
-    top: 0;
-
+    top: -2rem;
     left: 30%;
-    right: 0;
+    right: -1.25rem;
+    /* -webkit-box-shadow: -200px 200px 0px 200px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: -200px 200px 0px 200px rgba(0, 0, 0, 0.71); */
+    box-shadow: -100px -78px 5px 5000px rgba(0, 0, 26, 0.6);
   }
 }
 
