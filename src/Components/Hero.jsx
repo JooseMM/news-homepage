@@ -8,7 +8,7 @@ import consoleController from "../assets/images/image-gaming-growth.jpg";
 function Hero() {
   return (
     // grid container
-    <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-10 md:gap-y-8 lg:gap-y-8 lg:grid-cols-3  ">
+    <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-10 md:gap-y-8 lg:gap-y-8 lg:grid-cols-3 relative">
       {/* banner */}
 
       <div className="order-first mb-7 md:mb-0 md:order-none md:col-span-2">

@@ -8,6 +8,13 @@
     opacity: 0.4;
     margin-bottom: 1.5rem;
   }
+  .mobile-active-menu {
+    position: absolute;
+    top: 0;
+
+    left: 30%;
+    right: 0;
+  }
 }
 
 body {
